@@ -1,17 +1,13 @@
 # 7aylorMade
 Website
 
-This change is only for development.
 
 <html>
 <!doctype html>
 
 	<head> 
-	<title> Natural Therapies </title>
+	<title> Ian Taylor Personal Electrical Engineering Projects </title>
 	
-	</head>
-	
-
 	<body>
 		<h1> The Best Webpage Ever </h1>
 		<p> Enjoy <strong> The Best Webpage Ever! </strong> <br> Or else...</p>
