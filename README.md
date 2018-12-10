@@ -6,7 +6,7 @@ Website
 <!doctype html>
 
 	<head> 
-	<title> Ian Taylor Personal Electrical Engineering Projects </title>
+	<title>Personal Electrical Engineering Projects </title>
 	
 	<body>
 		<h1> The Best Webpage Ever </h1>
