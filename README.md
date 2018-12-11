@@ -12,7 +12,7 @@ Engineering Design Portfolio
 </head>
 
 	<body>
-	<h1> 2nd order Audio Amplifier </h1>
+	<h3> 2nd order Audio Amplifier </h3>
 	<p> This design challenge is : </p>
 	</body>
 	
