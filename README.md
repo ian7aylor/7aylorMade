@@ -13,7 +13,7 @@ Engineering Design Portfolio
 
 	<body>
 	<h3> 2nd order Audio Amplifier </h3>
-	<p> This design challenge is : </p>
+	<p> This design challenge is a 3 band audio equalizer </p>
 	</body>
 	
 	
