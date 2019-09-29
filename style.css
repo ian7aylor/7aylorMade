@@ -48,9 +48,31 @@
 
 /*-----Slider Images -----*/
 
+/*.carousel-caption
+#slider
+{width: 100%;
+
+}
+{
+	top: 50%
+	transform: translateY(-50%);
+	bottom: initial!important;
+}
+*/
+.carousel-inner{
+}
 .carousel-inner > .carousel-item > img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  height: auto;
+}
+
+/*-----About-----*/
+#about
+{
+	padding-top: 50 px;
+	padding-bottom: 50 px;
+	color: #555;
 }
