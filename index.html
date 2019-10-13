@@ -9,6 +9,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/7996c0a8de.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -61,19 +62,19 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block img-fluid" src="img/banner1.jpg" >
+      <img class="d-block img-fluid" alt="Responsive image" src="img/banner1.jpg" >
 	  <div class = "carousel-caption">
 	  <h5 style="color: #000000; background-color: #ffffff;"> San Francisco - 07/04/2019 </h5>
 	  </div>
     </div>
     <div class="carousel-item">
-      <img class=" d-block img-fluid" src="img/banner2.jpg" >
+      <img class="d-block img-fluid" alt="Responsive image" src="img/banner2.jpg" >
 	   <div class = "carousel-caption">
 	  <h5 style="color: #000000; background-color: #ffffff;"> </h5>
 	  </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="img/banner3.JPG" >
+      <img class="d-block img-fluid" alt="Responsive image" src="img/banner3.JPG" >
 	   <div class = "carousel-caption">
 	  <h5 style="color: #000000; background-color: #ffffff;"> </h5>
 	  </div>
@@ -90,21 +91,83 @@
 </div>
 </div>
 <!-------About------->
-<section id= "about">
+<section id = "about" >
 <div class = "container">
-	<div class = "row" >
-		<div class = "col-md-6">
-		<h2>About Me </h2>
-		<div class = "about-content">
-		Website is still under construction.
-		</div>
-		<div class = "col-md-6">
+<div class = "row">
+	<div class ="col-md-6">
+	<h2>About Me</h2>
+	<div class="about-content">
+	Currently a senior working toward a double major in electrical engineering and physics. 
+	I have been accepted into the 4+1 bachelor's/master's program at Portland State University which allows me to get credit toward my master's degree.
+	My interests lie in RFIC design, electromagnetics, programming, and digital design.
+	</div>
+<button type= "button" class="btn btn-primary"> Read more>>
+</button>
+</div>
+	<div class ="col-md-6">
+	<p>Analog Design</p>
+	<div class="progress">
+	<div class= "progress-bar" style= "width: 70%;">70%</div>
+	</div>
+	<p>Digital Design</p>
+	<div class="progress">
+	<div class= "progress-bar" style= "width: 80%;">80%</div>
+	</div>
+	<p>Programming</p>
+	<div class="progress">
+	<div class= "progress-bar" style= "width: 65%;">65%</div>
+	</div>
+	<p>Critical Thinking</p>
+	<div class="progress">
+	<div class= "progress-bar" style= "width: 100%;">100%</div>
+	</div>
 </div>
 </div>
-</div>
-<button type= "button" class="btn btn-primary"> Read more>></button></button> </button>
 </div>
 </section>
+	<!---School Projects--->
+	<section id="school_projects">
+	<div class="container">
+	<h1>School Projects</h1>
+	<div class ="row projects">
+	<div class= "col-md-3 text-center">
+		<div class= "icon">
+		<i class="fas fa-car-battery"></i>
+		</div>
+		<h3> Analog Design</h3>
+		<p> Most recent projects are: DC-to-DC buck converter with integral and lead compensator, and 
+		72 MHz phase lock loop.
+		</p>
+	</div>
+	<div class= "col-md-3 text-center">
+		<div class= "icon">
+		<i class="fas fa-wave-square"></i>
+		</div>
+		<h3> Digital Design</h3>
+		<p> Most recent projects are: simple finite state machine. (400 level digital design course coming soon)
+		</p>
+	</div>
+	<div class= "col-md-3 text-center">
+		<div class= "icon">
+	    <i class="fas fa-magnet"></i>
+		</div>
+		<h3> Physics</h3>
+		<p> Most recent projects are: Horn antenna measurements, diffraction patterns (Snell's Law), and transmission and reflection coefficient values using a VNA.
+		</p>
+		
+	</div>
+	<div class= "col-md-3 text-center">
+		<div class= "icon">
+		<i class="fas fa-robot"></i>
+		</div>
+		<h3> Programming</h3>
+		<p> From Matlab to ARM Assembly languages.
+		</p>
+		
+	</div>
+	</div>
+	</div>
+	</section>
 </body>
 
 
